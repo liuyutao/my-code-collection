@@ -1,0 +1,951 @@
+
+.login{
+    /*background:#f5f5f5;*/
+}
+.login_content{
+    width:350px;
+    margin:0 auto;
+    text-align:center;
+}
+.pop-up .login_logo{
+    margin:0px 0 70px 0;
+
+}
+
+.login_logo{
+    margin:100px 0 70px 0;
+
+}
+.login_input{
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat center;
+    height:54px;
+    line-height:54px;
+    padding-left:15px;
+    margin-bottom:12px;
+    position:relative;
+}
+.login_input input{
+    height:50px;
+    line-height:50px;
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/user_img.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+}
+.login_input.hover{
+    background:url(http://img00.allinmd.cn/login_v2/hover_input.png) no-repeat;
+    height:54px;
+    line-height:54px;
+    padding-left:12px;
+    /*margin-top:10px;*/
+    margin-left:3px;
+    position:relative;
+}
+.login_input.hover input{
+    height:50px;
+    line-height:50px;
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/user_img_hover.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+}
+.login_input.input_error{
+    /*background:url(http://img00.allinmd.cn/login_v2/error.jpg) no-repeat;*/
+    /*height:62px;
+    line-height:62px;*/
+    padding-left:18px;
+    margin-top:10px;
+    margin-bottom:2px;
+}
+.login_input.input_error input{
+    /*height:62px;
+    line-height:62px;*/
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/user_img_hover.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+}
+.password_input{
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat center;
+    line-height:50px;
+    padding-left:15px;
+    margin-bottom:12px;
+    position:relative;
+}
+.password_input input{
+    height:54px;
+    line-height:54px;
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/password_img.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+    position:relative;
+}
+
+
+
+.password_input.hover{
+    background:url(http://img00.allinmd.cn/login_v2/hover_input.png) no-repeat center;
+
+
+}
+.password_input.hover input{
+    height:54px;
+    line-height:54px;
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/password_img_hover.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+
+}
+.password_input.input_error{
+    /*background:url(http://img00.allinmd.cn/login_v2/error.jpg) no-repeat;*/
+    /*height:62px;
+    line-height:62px;*/
+    padding-left:18px;
+    /*	margin-top:10px;
+          */
+    margin-bottom:2px;
+}
+.password_input.input_error input{
+    /*height:62px;
+    line-height:62px;*/
+    width:280px;
+    border:none;
+    padding-left:30px;
+    background:url(http://img00.allinmd.cn/login_v2/password_img_hover.jpg) no-repeat left center;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+
+}
+.login_but{
+    margin:23px 0 15px 0;
+}
+.forget_password{
+    /*	float:right; */
+    font-size:12px;
+    color:#036eb8;
+}
+.forget_password a{
+    color:#036eb8;
+    text-decoration:none;
+}
+.or{
+    margin:15px 0;
+}
+.three_login{
+    color:#7998ad;
+    font-size:12px;
+    text-align:left;
+    margin-left:10px;
+}
+.three_img li{
+    float:left;
+    width:62px;
+    text-align:center;
+    margin:20px 8px 15px 0;
+}
+.reg_position{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    z-index: 6;
+}
+
+
+/*注册*/
+.jinggao,.ok{
+    position:absolute;
+    right:-35px;
+    top:10px;
+    z-index:2;
+    display: none;
+}
+.jg_text{
+    font-size:12px;
+    color:#7a8795;
+    line-height:30px;
+    margin-top:-10px;
+}
+.jg_text span{
+    color:#ff0000;
+}
+a{
+    color:#036eb8;
+    text-decoration:none;
+}
+
+.yzm{
+    height: 50px;
+    position: relative;
+}
+.yzm div{
+    float:left;
+}
+.yzm_input input{
+    height:50px;
+    line-height:50px;
+    width:170px;
+    border:none;
+    padding-left:14px;
+    background:url(http://img00.allinmd.cn/login_v2/yzm_input.jpg) no-repeat;
+    font-size:16px;
+    font-family:microsoft yahei;
+    color:#b3bdc8;
+}
+.yzm_img{
+    margin:0 10px;
+}
+.yzm_text{
+    font-size:12px;
+    color:#036eb8;
+    line-height:50px;
+}
+.tk_text{
+    text-align:left;
+    font-size:12px;
+    color:#7a8795;
+}
+.phone_img{
+    margin-left:10px;
+}
+.false{
+    background:url(http://img00.allinmd.cn/login_v2/false.jpg) no-repeat left center;
+    height:16px;
+    text-align:left;
+    font-size:12px;
+    color:#e64638;
+    line-height:16px;
+    padding-left:25px;
+    margin-left:3px;
+}
+.yzm{
+    margin-left:5px;
+}
+
+
+/*联合登录*/
+.login_lh{
+    margin:170px 0 40px 0;
+    font-size:28px;
+    color:#036eb8;
+
+}
+.pop-up{
+    font-family: "Microsoft YaHei";
+}
+
+.pop-up .login_lh{
+    margin:0px 0 40px 0;
+    font-size:28px;
+    color:#036eb8;
+}
+
+.tishi{
+    font-size:14px;
+    color:#969696;
+    text-align:left;
+    margin: 0 0 15px 3px;
+}
+
+
+
+/*认证医师*/
+.renzheng_content{
+    width:1000px;
+    margin:0 auto;
+    padding:200px 0 0 187px;
+}
+.only_yishi_img{
+    float:left;
+    width:140px;
+    height:111px;
+}
+.only_yishi_text{
+    float:left;
+}
+.only_title{
+    font-size:24px;
+    color:#388ad7;
+    margin-top:15px;
+}
+.only_content{
+    font-size:15px;
+    line-height:20px;
+    color:#7a8795;
+    margin:15px 0 35px 0;
+}
+.only_but div{
+    float:left;
+    line-height:53px;
+    margin-right:14px;
+    color:#036eb8;
+    font-size:12px;
+}
+.name_input{
+    height:50px;
+    margin-bottom:12px;
+    margin-left:5px;
+}
+.name_input div{
+    float:left;
+    width:165px;
+
+}
+
+.xing_input input{
+    height:50px;
+    line-height:50px;
+    width:140px;
+    border:none;
+    padding-left:14px;
+    padding-right:26px;
+    background:url(http://img00.allinmd.cn/login_v2/name_input.jpg) no-repeat;
+    font-size:16px;
+    color:#b3bdc8;
+    font-family: microsoft yahei;
+}
+.ming_input,.sc_img02{
+    margin-left:10px;
+}
+.ming_input,.sc_img02{
+    float: right;
+}
+.ming_input input{
+    height:50px;
+    line-height:50px;
+    width:140px;
+    border:none;
+    padding-left:14px;
+    padding-right:26px;
+    background:url(http://img00.allinmd.cn/login_v2/name_input.jpg) no-repeat;
+    font-size:16px;
+    font-family: microsoft yahei;
+    color:#b3bdc8;
+}
+.rz_input{
+    margin-left:5px;
+    margin-bottom:12px;
+}
+.rz_input input{
+    height:50px;
+    line-height:50px;
+    border:none;
+    padding-left:14px;
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat;
+    font-size:16px;
+    font-family: microsoft yahei;
+    width:316px;
+    color:#b3bdc8;
+    padding-right: 15px;
+}
+.lk_input{
+    height:50px;
+    border:none;
+    padding-left:14px;
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat;
+    font-size:16px;
+    font-family: microsoft yahei;
+    width:316px;
+    color:#b3bdc8;
+    padding-right: 15px;
+    color: #969696;
+    text-align:left;
+
+}
+.lk_input .medicalShow{
+    padding-top:12px;
+    height:34px;
+    overflow:auto;
+}
+.lk_input .medicalShow li{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    float: left;
+    margin: 4px 5px;
+}
+.lk_input #proFieldshow{
+    padding-top:12px;
+    height:34px;
+    overflow:auto;
+}
+.input_name{
+    float:left;
+    height:50px;
+    line-height:50px;
+    margin-right:10px;
+}
+.sc_img{
+    margin-left:5px;
+    height:100px;
+}
+.sc_img div{
+    float:left;
+}
+.sc_img01,.sc_img02{
+    position:relative;
+    width: 330px;
+    height: 140px;
+}
+.mengban{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:5;
+}
+
+.rz-num-type div{
+    float:left;
+    width:110px;
+    text-align:left;
+}
+
+/*找回密码*/
+.back_header{
+    background:url(http://img00.allinmd.cn/login_v2/header_bg.jpg) repeat-x;
+    height:85px;
+    line-height:85px;
+}
+.allin_width{
+    width:1000px;
+    margin:0 auto;
+}
+.logo_back{
+    padding-top:18px;
+    background:url(http://img00.allinmd.cn/login_v2/line.jpg) no-repeat right center;
+    height:67px;
+    width:156px;
+    margin-right:15px;
+    float:left;
+}
+.zh_text{
+    font-size:24px;
+    color:#fff;
+    float:left;
+}
+.reg_login{
+    float:right;
+    font-size:16px;
+    color:#fff;
+}
+.reg_login a{
+    color:#fff;
+    text-decoration:none;
+}
+
+
+.jd_tiao{
+    margin:100px 0 85px;
+}
+.back_cont{
+    padding-left:219px;
+}
+.phone_text{
+    background:url(http://img00.allinmd.cn/login_v2/phone.jpg) no-repeat;
+    height:28px;
+    line-height:28px;
+    font-size:16px;
+    color:#7a8795;
+    padding-left:30px;
+}
+.back_input input{
+    height:50px;
+    line-height:50px;
+    border:none;
+    padding-left:14px;
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat;
+    font-size:16px;
+    font-family: microsoft yahei;
+    width:326px;
+    color:#b3bdc8;
+}
+.back_input div{
+    float:left;
+    margin:0px 10px 25px 0;
+}
+.back_input{
+}
+.mail_text{
+    background:url(http://img00.allinmd.cn/login_v2/mail.png) no-repeat left center;
+    font-size:16px;
+    color:#7a8795;
+    padding-left:40px;
+    line-height:25px;
+    margin-bottom:27px;
+    height:25px;
+}
+.but div{
+    float:left;
+    margin-right:10px;
+    line-height:50px;
+    font-size:12px;
+
+}
+.yzm_bg{
+    background:url(http://img00.allinmd.cn/login_v2/daoshu_bg.png) no-repeat;
+    height:50px;
+    width:146px;
+    line-height:50px;
+    text-align:center;
+    font-size:16px;
+    color:#969696;
+}
+.cry_text{
+    background:url(http://img00.allinmd.cn/login_v2/cry.png) no-repeat;
+    font-size:16px;
+    color:#7a8795;
+    padding-left:65px;
+    line-height:25px;
+    height:52px;
+}
+.yaoshi_text{
+    background:url(http://img00.allinmd.cn/login_v2/yaoshi.png) no-repeat;
+    font-size:16px;
+    color:#7a8795;
+    padding-left:43px;
+    line-height:25px;
+    height:33px;
+    margin-bottom: 2em;
+}
+.zh_width{
+    width:375px;
+    margin:0 auto;
+}
+.cz_mm{
+    font-size:16px;
+    color:#7a8795;
+    margin-bottom:40px;
+}
+.mm_input input{
+    height:50px;
+    line-height:50px;
+    border:none;
+    padding-left:14px;
+    background:url(http://img00.allinmd.cn/login_v2/input_kuang.png) no-repeat;
+    font-size:16px;
+    font-family: microsoft yahei;
+    width:326px;
+    color:#b3bdc8;
+    margin-bottom:12px;
+
+}
+.mm_but{
+    margin-top:12px;
+}
+.zh_width02{
+    width:220px;
+    margin:0 auto;
+}
+.cg_text{
+    background:url(http://img00.allinmd.cn/login_v2/true.jpg) no-repeat;
+    height:25px;
+    line-height:25px;
+    font-size:16px;
+    color:#7a8795;
+    padding-left:35px;
+    margin-bottom:20px;
+}
+.zh_width03{
+    width:280px;
+    margin:0 auto;
+}
+
+
+
+/*注册引导*/
+.recommend_content{
+    padding-top:100px;
+}
+.recommend_title{
+    font-size:24px;
+    color:#046eb8;
+    margin-left:38px;
+    margin-bottom:12px;
+}
+.recommend_list{margin-left:20px; position:relative;}
+.recommend_list li{
+    width:192px;
+    text-align:center;
+    float:left;
+    background:url(http://img00.allinmd.cn/login_v2/yd_bg.png) no-repeat center;
+    height:255px;
+    margin-bottom:30px;
+}
+.tj_p_img{
+    margin-top:3px;
+
+}
+.tj_p_name {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #808080;
+    margin: 10px 0 0px 0;
+}
+.tj_p_yiyuan {
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 3px;
+    overflow: hidden;
+    height: 20px;
+}
+.enter_home{
+    text-align:center;
+}
+.enter_home div{
+    float:left;
+}
+.enter_home02{
+    text-align:center;
+    margin-left:375px;
+}
+.enter_home02 div{
+    float:left;
+}
+.left_jt{
+    position:absolute;
+    left:-55px;
+    top:245px;
+    z-index:6;
+}
+.right_jt{
+    position:absolute;
+    right:-35px;
+    top:245px;
+    z-index:6;
+}
+.xuezu_list{
+    margin-left:25px;
+}
+.xuezu_list .small_bg{
+    width:190px;
+    text-align:center;
+    background:url(http://img00.allinmd.cn/login_v2/small_bg.png) no-repeat center;
+    float:left;
+    height:60px;
+    line-height:60px;
+    margin-bottom:30px;
+}
+.xuezu_list .small_bg .add_small{
+    background:url(http://img00.allinmd.cn/login_v2/add.png) no-repeat 57px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#8d939a;
+}
+.xuezu_list .small_bg .add_middle{
+    background:url(http://img00.allinmd.cn/login_v2/add.png) no-repeat 48px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#8d939a;
+}
+.xuezu_list .small_bg .add_big{
+    background:url(http://img00.allinmd.cn/login_v2/add.png) no-repeat 37px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#8d939a;
+}
+
+.xuezu_list .big_bg .add_big{
+    background:url(http://img00.allinmd.cn/login_v2/add.png) no-repeat 37px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#8d939a;
+}
+
+
+.xuezu_list .big_bg{
+    width:273px;
+    text-align:center;
+    background:url(http://img00.allinmd.cn/login_v2/big_bg.png) no-repeat center;
+    float:left;
+    height:60px;
+    line-height:60px;
+    margin-bottom:30px;
+}
+.small_hover{
+    width:190px;
+    text-align:center;
+    background:url(http://img00.allinmd.cn/login_v2/hover.png) no-repeat center;
+    float:left;
+    height:60px;
+    line-height:60px;
+    margin-bottom:30px;
+}
+
+.xuezu_list li{
+    float: left;
+}
+
+.xuezu_list .small_hover .add_small{
+    background:url(http://img00.allinmd.cn/login_v2/dui.png) no-repeat 57px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#fff;
+}
+.xuezu_list .small_hover .add_middle{
+    background:url(http://img00.allinmd.cn/login_v2/dui.png) no-repeat 48px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#fff;
+}
+.xuezu_list .hover_big_bg .add_big{
+    background:url(http://img00.allinmd.cn/login_v2/dui.png) no-repeat 37px center;
+    padding-left:30px;
+    font-size:20px;
+    color:#fff;
+}
+
+.xuezu_list .hover_big_bg{
+    width:273px;
+    text-align:center;
+    background:url(http://img00.allinmd.cn/login_v2/big_bg_hover.png) no-repeat center;
+    float:left;
+    height:60px;
+    line-height:60px;
+    margin-bottom:30px;
+}
+
+
+.login label.error,
+.login_detail_ty label.error{
+    background: none;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 0 4px 9px;
+    color:#FE0002 ;
+    text-align: left;
+}
+
+
+.xuezu_list li{
+    border: solid 1px #c0c8d1;
+    border-radius: 6px;
+    background:#fff;
+    width:auto;
+    text-align:center;
+    height:58px;
+    line-height:58px;
+    padding:0 20px;
+    float:left;
+    min-width:120px;
+    color:#8d939a;
+    font-family:microsoft yahei;
+    margin-right:30px;
+    margin-bottom:30px;
+    font-size: 22px;
+}
+.xuezu_list li img{
+    margin-right:12px;
+}
+.xuezu_list li.yd_li_hover{
+    border: solid 1px #008be3;
+    border-radius: 6px;
+    background:#008be3;
+    width:auto;
+    text-align:center;
+    height:58px;
+    line-height:58px;
+    padding:0 20px;
+    float:left;
+    min-width:120px;
+    color:#fff;
+    font-family:microsoft yahei;
+    margin-right:30px;
+    margin-bottom:30px;
+
+}
+#getmesg {
+
+}
+
+
+#getmesg .btn{
+    background: url(http://img00.allinmd.cn/reset_password/btn-bg.png) no-repeat;
+    text-align: center;
+    font-size: 16px;
+    color:#353535;
+    width:146px; height: 50px;
+    margin:0;
+    padding: 0;
+    line-height: 50px;
+    cursor: pointer;
+}
+#getmesg .disabled{
+    color:#969696;
+}
+
+/**/
+#evProfessionClose,#evValidateClose,#evValidateAdd,.evProfessionChoose,#evProTrigger{
+    cursor:pointer;
+}
+#evProfession,#evValidate{
+    display:none;
+}
+
+
+
+
+/*关注的专业*/
+.profession_content{
+    width:675px;
+    height:auto;
+    padding:20px;
+    background:#266ba2;
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+.profession_title{
+    font-family:microsoft yahei;
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+}
+.profession_title .title_text{
+    float:left;
+}
+.close02{
+    float:right;
+}
+.gz_xuezu{
+    margin:10px 0 30px 0;
+}
+.gz_xuezu li{
+    float:left;
+    margin-top:20px;
+    margin-right:20px;
+}
+.p_link .p_bg_left{
+    background:url(http://img00.allinmd.cn/login_v2/p_bg_left.png) no-repeat;
+    height:36px;
+    width:16px;
+    float:left;
+}
+.p_link .p_bg_center{
+    background:url(http://img00.allinmd.cn/login_v2/p_bg_center.png) repeat-x;
+    height:36px;
+    width:auto;
+    font-size:15px;
+    font-family:microsoft yahei;
+    color:#999999;
+    float:left;
+    line-height:36px;
+}
+.p_link .p_bg_right{
+    background:url(http://img00.allinmd.cn/login_v2/p_bg_right.png) no-repeat;
+    height:36px;
+    width:16px;
+    float:left;
+}
+.p_link .add_s{
+    background:url(http://img00.allinmd.cn/login_v2/add_s.png) no-repeat left center;
+    height:36px;
+    padding-left:30px;
+}
+.p_active .p_bg_left{
+    background:url(http://img00.allinmd.cn/login_v2/b_p_left.png) no-repeat;
+    height:36px;
+    width:16px;
+    float:left;
+}
+.p_active .p_bg_center{
+    background:url(http://img00.allinmd.cn/login_v2/b_p_center.png) repeat-x;
+    height:36px;
+    width:auto;
+    font-size:15px;
+    font-family:microsoft yahei;
+    color:#fff;
+    float:left;
+    line-height:36px;
+}
+.p_active .p_bg_right{
+    background:url(http://img00.allinmd.cn/login_v2/b_p_right.png) no-repeat;
+    height:36px;
+    width:16px;
+    float:left;
+}
+.p_active .add_s{
+    background:url(http://img00.allinmd.cn/login_v2/true_s.png) no-repeat left center;
+    height:36px;
+    padding-left:30px;
+}
+.gz_but{
+    text-align:center;
+    margin-top:30px;
+}
+.p_c_text{
+    font-size:15px;
+    font-family:microsoft yahei;
+    color:#fff;
+}
+.p_margin{
+    margin-top:20px;
+}
+
+.yd_li{
+    border: solid 1px #c0c8d1;
+    border-radius: 6px;
+    background:#fff;
+    width:auto;
+    text-align:center;
+    height:58px;
+    line-height:58px;
+    padding:0 20px;
+    float:left;
+    min-width:120px;
+    color:#8d939a;
+    font-family:microsoft yahei;
+    margin-right:30px;
+    margin-bottom:30px;
+}
+.yd_li img,.yd_li_hover img{
+    margin-right:12px;
+}
+.recommend_list .yd_li_hover{}
+
+/*修改医师认证*/
+.radio_input {
+    margin-left:3px;
+
+}
+.radio_input div{
+    float:left;
+    margin-bottom:7px;
+    color:#969696;
+}
+.radio_input input{
+    margin-right:10px;
+}
+.sc_img img{
+    margin-bottom:35px;
+}
+.sc_img_photo{
+    position:relative;
+    height: 140px;
+}
+.cx_sc_but{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:5;
+}
+
+
+/**/
+a.a_organization:link,a.a_organization:active,a.a_organization:visited{color:#fff}

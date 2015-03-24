@@ -1,0 +1,126 @@
+.video_c_cz .photo_bg {
+    float:left;
+    background:url(/v2/image/img00/detail/photo.png) no-repeat 10px center;
+    height:28px;
+    font-size:12px;
+    color:#969696;
+    line-height:28px;
+    padding-left:37px;
+    width:63px;
+}
+
+.video_c_cz .at_bg {
+    float:left;
+    background:url(/v2/js/plugins/reply-remind/image/at.png) no-repeat left center;
+    height:28px;
+    font-size:12px;
+    color:#969696;
+    line-height:28px;
+    padding-left:27px;
+    cursor:pointer;
+}
+
+.video_c_cz .photo_bg_hover {
+    float:left;
+    background:url(/v2/image/img00/detail/photo_active.png) no-repeat 10px center;
+    height:28px;
+    font-size:12px;
+    color:#3d84c6;
+    line-height:28px;
+    padding-left:37px;
+    width:63px;
+}
+
+.video_c_cz .at_bg_hover {
+    background:url(/v2/js/plugins/reply-remind/image/at_active.png) no-repeat left center;
+    color:#3d84c6;
+}
+.tx_who_look {
+    height:auto;
+    border:#e1e3e4 solid 1px;
+    border-top:none;
+    position:relative;
+}
+.tx_who_look_hover {
+    background:#fafaff;
+}
+.tx_who_look_hover input{
+    background:#fafaff;
+}
+.tx_title {
+    float:left;
+    font-size:12px;
+    color:#969696;
+    padding-left:5px;
+    line-height:30px;
+}
+.tx_text {
+    float:left;
+    font-size:12px;
+    color:#666666;
+    padding-left:10px;
+    line-height:30px;
+}
+.tx_num {
+    float:right;
+    font-size:12px;
+    color:#969696;
+    padding-left:5px;
+    line-height:30px;
+}
+.remind_text input{
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    width: 100px;
+    color: #666;
+    border: none;
+}
+.at_personal_name {
+    width: 100%;
+    max-height: 426px;
+    overflow: auto;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 31px;
+    border-left: #e1e3e4 solid 1px;
+    border-right: #e1e3e4 solid 1px;
+    z-index: 3;
+    margin-left: -1px;
+    display:none;
+}
+.at_personal_name li {
+    height: auto;
+    padding: 12px 0;
+    border-bottom: #e1e3e4 solid 1px;
+}
+.at_user_img {
+    float: left;
+    margin: 0 10px 0 25px;
+}
+.at_user_img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.at_user_name {
+    font-size: 14px; 
+    color: #666;
+    margin-top: 10px;
+}
+
+.at_user_name span {
+    margin-right: 10px;
+}
+
+.at_personal_name .hover {
+    height: auto;
+    padding: 12px 0;
+    border-bottom: #3d84c6 solid 1px;
+    background: #3d84c6;
+    margin: 0;
+}
+.at_personal_name .hover .at_user_name {
+    color: #fff;
+}
