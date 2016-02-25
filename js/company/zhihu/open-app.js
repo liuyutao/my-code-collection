@@ -6,22 +6,21 @@
  *
  * Created by LiuYuTao on 2016/2/25.
  */
-var Mt = /Android/.test(window.navigator.userAgent)
+var isAndroid = /Android/.test(window.navigator.userAgent)
 	, Kv = z.lB.lb
-	, Ll = /MicroMessenger/.test(window.navigator.userAgent)
-	, Kt = /Weibo/.test(window.navigator.userAgent)
-	, Ml = /Mobile/.test(window.navigator.userAgent) && /CriOS/.test(window.navigator.userAgent);
-var Kl = null ;
+	, isWeiXin = /MicroMessenger/.test(window.navigator.userAgent)
+	, isWeibo = /Weibo/.test(window.navigator.userAgent)
+	, isMobile = /Mobile/.test(window.navigator.userAgent) && /CriOS/.test(window.navigator.userAgent);
+var Kl = null;
 
 
-var Jt = function () {
+var bindOpenAppBtn = function () {
 		(0,
 			window.$)("#js-open-in-app").on("click", function () {
 			var a;
-			if (a = (a = (0,
-						window.$)('meta[name\x3d"apple-itunes-app"]').attr("content")) && a.replace(/,\s*/, "\x26"))
+			if (a = (a = (0, window.$)('meta[name\x3d"apple-itunes-app"]').attr("content")) && a.replace(/,\s*/, "\x26"))
 				a = new z.Uo(a),
-					Ll || Kt ? (a.add("origin", window.location.href),
+					isWeiXin || isWeibo ? (a.add("origin", window.location.href),
 						window.location.href = "/openinapp_instruction?" + a.toString()) : Lt(a.get("app-argument"));
 			z.Y("app-promotion", "click_zhihu_ios_open_dl_link", "header_not_logged_in")
 		});
@@ -42,7 +41,7 @@ z.Uo = function (a, b, c) {
 var Lt = function (a) {
 		if (a)
 			if (-1 === a.indexOf("zhihu://") && (a = "zhihu://" + a),
-					Mt)
+					isAndroid)
 				Nt(a);
 
 			else if (window.location.href = a,
@@ -70,3 +69,9 @@ z.Y = function (a, b, c, d, f) {
 	Pn && window.console && window.console.log("trackEvent(new)", z.Vb(arguments))
 }
 ;
+
+var Yo = function () {
+		var a = window.location;
+		return a instanceof z.Oo ? a.clone() : new z.Oo(a, void 0)
+	}
+	;
