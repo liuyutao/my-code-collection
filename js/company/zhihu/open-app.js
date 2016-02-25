@@ -45,6 +45,7 @@ var Lt = function (a) {
 			if (-1 === a.indexOf("zhihu://") && (a = "zhihu://" + a),
 					Mt)
 				Nt(a);
+
 			else if (window.location.href = a,
 				Ot && !(0 <= pb(Pt, 9))) {
 				var b = !1;
